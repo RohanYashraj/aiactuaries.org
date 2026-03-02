@@ -68,9 +68,8 @@ export const siteContent = {
   },
   nav: {
     links: [
-      { label: "Vision", href: "#vision" },
-      { label: "Pillars", href: "#brands" },
-      { label: "Audiences", href: "#audiences" },
+      { label: "Home", href: "/" },
+      { label: "Members", href: "/members" },
     ] as const,
   },
 };

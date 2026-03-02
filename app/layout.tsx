@@ -3,6 +3,8 @@ import { DM_Serif_Display, Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import { siteContent } from "@/lib/site-content";
 import { Analytics } from "@/components/analytics";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 const dmSerif = DM_Serif_Display({
   variable: "--font-display",
@@ -67,7 +69,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {children}
+        <div className="min-h-screen text-foreground page-bg page-bg-grid relative flex flex-col">
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
         <Analytics />
       </body>
     </html>
