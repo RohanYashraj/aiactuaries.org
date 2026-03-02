@@ -106,7 +106,7 @@ export const academicLeadership: AcademicLeadershipSection = {
   members: [
     {
       name: "Dr. Rohan Yashraj Gupta",
-      credentials: "FIA",
+      credentials: "FIA, FIAI",
       title: "Professor of Practice in AI & Actuarial Data Science",
     },
     {
@@ -157,10 +157,12 @@ export const professionalExamDivision: ProfessionalExamSection = {
       people: [
         {
           name: "Naga Teja M",
+          credentials: "FIA, FIAI",
           title: "Adjunct Professor",
         },
         {
-          name: "Naga Sai Shivanee",
+          name: "Naga Sai Shivanee M",
+          credentials: "FIA, FIAI",
           title: "Adjunct Professor",
         },
         {
@@ -209,7 +211,7 @@ export const industryPlacementLeadership: IndustryPlacementSection = {
           title: "Advocate A.P. High Court",
         },
         {
-          name: "Sri Kapil Chabra",
+          name: "Sri Kapil Chhabra",
           credentials: "CA",
           title: "Auditor",
         },
