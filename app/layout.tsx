@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { DM_Serif_Display, Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import { siteContent } from "@/lib/site-content";
-import { Analytics } from "@/components/analytics";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const dmSerif = DM_Serif_Display({
   variable: "--font-display",

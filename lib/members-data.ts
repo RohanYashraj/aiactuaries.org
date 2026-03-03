@@ -211,7 +211,7 @@ export const industryPlacementLeadership: IndustryPlacementSection = {
           title: "Advocate A.P. High Court",
         },
         {
-          name: "Sri Kapil Chhabra",
+          name: "Srikapil Chhabra",
           credentials: "CA",
           title: "Auditor",
         },
