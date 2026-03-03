@@ -16,17 +16,17 @@ export interface SubBrand {
 
 export const subBrands: SubBrand[] = [
   {
-    id: "workshops-ai-certification",
-    slug: "workshops-ai-certification",
+    id: "center-of-excellence",
+    slug: "center-of-excellence",
     name: "SSS CADS-AI",
-    category: "Education & Center of Excellence",
+    category: "Center of Excellence",
     tagline:
       "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI.",
     headline:
       "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI",
     description:
       "The institutional home for actuarial data science and AI at Sri Sathya Sai, bringing together education, research, and ecosystem-building for the profession.",
-    url: "#",
+    url: "https://edu.aiactuaries.org",
     accent: "gold",
     image:
       "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
@@ -40,7 +40,7 @@ export const subBrands: SubBrand[] = [
     headline: "Agentic systems for insurance and actuarial innovation",
     description:
       "Prototype and deploy non-traditional, AI-native workflows for underwriting, pricing, forecasting, and internal operations.",
-    url: "https://maestrosai.vercel.app/",
+    url: "https://maestrosai.in/",
     accent: "sage",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
@@ -53,7 +53,7 @@ export const subBrands: SubBrand[] = [
     tagline: "Traditional actuarial, upgraded with data science and tooling.",
     headline: "Traditional actuarial, upgraded with data science",
     description:
-      "End-to-end actuarial support—reserving, pricing, capital, reporting—grounded in rigorous methods and supported by modern data pipelines.",
+      "End-to-end tech actuarial support—reserving, pricing, capital, reporting—grounded in rigorous methods and supported by modern data pipelines.",
     url: "https://techactuarial.com/",
     accent: "terracotta",
     image:

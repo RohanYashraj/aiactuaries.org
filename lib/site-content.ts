@@ -26,9 +26,9 @@ export const siteContent = {
     },
   },
   brands: {
-    heading: "Four pillars of the Center",
+    heading: "Four pillars of the AI Actuaries",
     subtext:
-      "Each pillar is intentionally scoped—from agentic AI and non-traditional solutions to traditional actuarial work, education, and thought leadership.",
+      "Each pillar is intentionally scoped—from education, agentic AI and non-traditional solutions to traditional actuarial work, and thought leadership.",
   },
   audiences: {
     heading: "Who the Center serves",
