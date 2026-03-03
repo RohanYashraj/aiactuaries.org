@@ -1,22 +1,21 @@
 export const siteContent = {
   /** Short brand name used in header and footer. */
-  siteName: "SSSCADSAI",
+  siteName: "AI Actuaries",
   /** Full name for taglines and SEO. */
-  fullName:
-    "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI",
+  fullName: "AI Actuaries",
   meta: {
-    title: "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI",
+    title: "AI Actuaries",
     description:
-      "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI. One hub for Maestros AI, Tech Actuarial, Workshops & AI Certification, and Sutra Blog—blending tradition with innovation.",
-    /** Set to your production URL for OG images and canonical links (e.g. "https://ssscadsai.com"). */
-    baseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "",
+      "AI Actuaries. One hub for SSS Center of Excellence in Actuarial Data Science & AI, Maestros AI, Tech Actuarial, and Sutra Blog.",
+    /** Set to your production URL for OG images and canonical links (e.g. "https://aiactuaries.org"). */
+    baseUrl: "https://aiactuaries.org",
   },
   hero: {
-    kicker: "Sri Sathya Sai Center of Excellence",
+    kicker: "AI Actuaries",
     titlePrefix: "Actuarial Data Science ",
     titleHighlight: "& AI",
     titleSuffix: ".",
-    body: "One entry point to four pillars: agentic AI solutions, tech-enabled actuarial services, professional AI workshops, and Sutra Blog—clear, complete explanations of complex topics.",
+    body: "AI Actuaries. One hub for SSS Center of Excellence in Actuarial Data Science & AI, Maestros AI, Tech Actuarial, and Sutra Blog.",
     primaryCta: {
       label: "Explore the four pillars",
       href: "#brands",
@@ -58,7 +57,7 @@ export const siteContent = {
     items: [
       "Innovation: agentic AI and non-traditional solutions",
       "Rigor: traditional actuarial + data science",
-      "Education: workshops and AI certification",
+      "Education: SSS CADS-AI center & learning pathways",
       "Thought leadership: clear, complete explanations",
     ] as const,
   },

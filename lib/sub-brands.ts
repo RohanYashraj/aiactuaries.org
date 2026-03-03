@@ -16,6 +16,22 @@ export interface SubBrand {
 
 export const subBrands: SubBrand[] = [
   {
+    id: "workshops-ai-certification",
+    slug: "workshops-ai-certification",
+    name: "SSS CADS-AI",
+    category: "Education & Center of Excellence",
+    tagline:
+      "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI.",
+    headline:
+      "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI",
+    description:
+      "The institutional home for actuarial data science and AI at Sri Sathya Sai, bringing together education, research, and ecosystem-building for the profession.",
+    url: "#",
+    accent: "gold",
+    image:
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+  },
+  {
     id: "maestros-ai",
     slug: "maestros-ai",
     name: "Maestros AI",
@@ -42,20 +58,6 @@ export const subBrands: SubBrand[] = [
     accent: "terracotta",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-  },
-  {
-    id: "workshops-ai-certification",
-    slug: "workshops-ai-certification",
-    name: "Workshops & AI Certification",
-    category: "Education & Upskilling",
-    tagline: "Practical AI education for actuarial professionals and leaders.",
-    headline: "Upskilling for actuarial teams and leaders",
-    description:
-      "Hands-on, tool-agnostic workshops and certification paths that connect AI concepts to day-to-day actuarial work.",
-    url: "#",
-    accent: "gold",
-    image:
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
   },
   {
     id: "sutra-blog",

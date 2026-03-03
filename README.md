@@ -29,14 +29,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## SSSCADSAI hub site
+## AI Actuaries hub site
 
-Single-page hub for **SSSCADSAI** — Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI. It links to four pillars: Maestros AI, Tech Actuarial, Workshops & AI Certification, and Sutra Blog.
+Single-page hub for **AI Actuaries**. It links to four pillars: SSS CADS-AI (Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI), Maestros AI, Tech Actuarial, and Sutra Blog.
 
 ### Configuration
 
 - **Content**: Edit `lib/sub-brands.ts` for the four sub-brands (names, URLs, copy) and `lib/site-content.ts` for site name, hero, nav, audiences, footer, and meta.
-- **SEO**: Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://ssscadsai.com`) in your environment so Open Graph and JSON-LD use the production URL.
+- **SEO**: Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://aiactuaries.org`) in your environment so Open Graph and JSON-LD use the production URL.
 
 ## Deploy on Vercel
 
