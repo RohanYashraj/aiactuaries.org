@@ -42,7 +42,7 @@ export default function MembersPage() {
   return (
     <>
       {/* Page hero */}
-      <section className="section-block pt-12 pb-16 md:pt-16 md:pb-24">
+      <section className="section-block pt-12 pb-8 md:pt-16 md:pb-12">
         <Section as="div">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-3 float-up">
@@ -61,7 +61,7 @@ export default function MembersPage() {
       </section>
 
       {/* 1. Governance & Leadership */}
-      <section className="py-12 md:py-16 scroll-mt-24">
+      <section className="py-6 md:py-8 scroll-mt-24">
         <Section as="div">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-4">
             {governanceLeadership.sectionTitle}
@@ -70,7 +70,7 @@ export default function MembersPage() {
             Chairman
           </h2>
 
-          <div className="audience-card max-w-2xl pl-5 accent-bar-sage mb-12">
+          <div className="audience-card max-w-2xl pl-5 accent-bar-sage">
             <PersonLine
               person={{
                 name: governanceLeadership.chairman.name,
@@ -79,32 +79,11 @@ export default function MembersPage() {
               }}
             />
           </div>
-
-          <div className="max-w-2xl pl-6 accent-bar-terracotta">
-            <p className="text-xs font-semibold uppercase tracking-wider text-primary/80 mb-3">
-              Role &amp; Responsibilities
-            </p>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              {governanceLeadership.chairman.roleResponsibilities.map(
-                (item, i) => (
-                  <li key={i} className="flex gap-2">
-                    <span
-                      className="text-primary/60 mt-1.5 shrink-0"
-                      aria-hidden
-                    >
-                      —
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ),
-              )}
-            </ul>
-          </div>
         </Section>
       </section>
 
       {/* 2. Advisory Council */}
-      <section className="py-12 md:py-16 scroll-mt-24">
+      <section className="py-6 md:py-8 scroll-mt-24">
         <Section as="div">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-4">
             {advisoryCouncil.sectionTitle}
@@ -113,7 +92,7 @@ export default function MembersPage() {
             {advisoryCouncil.keyAdvisorsLabel}
           </h2>
 
-          <div className="grid gap-6 sm:grid-cols-2 mb-12 max-w-3xl">
+          <div className="grid gap-6 sm:grid-cols-2 max-w-3xl">
             {advisoryCouncil.advisors.map((advisor) => (
               <div
                 key={advisor.name}
@@ -123,27 +102,11 @@ export default function MembersPage() {
               </div>
             ))}
           </div>
-
-          <div className="max-w-2xl pl-6 accent-bar-gold">
-            <p className="text-xs font-semibold uppercase tracking-wider text-primary/80 mb-3">
-              {advisoryCouncil.roleTitle}
-            </p>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              {advisoryCouncil.roleItems.map((item, i) => (
-                <li key={i} className="flex gap-2">
-                  <span className="text-primary/60 mt-1.5 shrink-0" aria-hidden>
-                    —
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </Section>
       </section>
 
       {/* 3. Academic & Research Leadership */}
-      <section className="py-12 md:py-16 scroll-mt-24">
+      <section className="py-6 md:py-8 scroll-mt-24">
         <Section as="div">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-4">
             {academicLeadership.sectionTitle}
@@ -152,7 +115,7 @@ export default function MembersPage() {
             {academicLeadership.coreMembersLabel}
           </h2>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-12">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {academicLeadership.members.map((member) => (
               <div
                 key={member.name}
@@ -162,27 +125,11 @@ export default function MembersPage() {
               </div>
             ))}
           </div>
-
-          <div className="max-w-2xl pl-6 accent-bar-terracotta">
-            <p className="text-xs font-semibold uppercase tracking-wider text-primary/80 mb-3">
-              {academicLeadership.responsibilitiesTitle}
-            </p>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              {academicLeadership.responsibilities.map((item, i) => (
-                <li key={i} className="flex gap-2">
-                  <span className="text-primary/60 mt-1.5 shrink-0" aria-hidden>
-                    —
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </Section>
       </section>
 
       {/* 4. Professional Examination & Certification Division */}
-      <section className="py-12 md:py-16 pb-24 md:pb-32 scroll-mt-24">
+      <section className="py-6 md:py-8 scroll-mt-24">
         <Section as="div">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-4">
             {professionalExamDivision.sectionTitle}
@@ -217,7 +164,7 @@ export default function MembersPage() {
       </section>
 
       {/* 5. Industry & Global Placement Leadership */}
-      <section className="py-12 md:py-16 pb-24 md:pb-32 scroll-mt-24">
+      <section className="py-6 md:py-8 pb-16 md:pb-20 scroll-mt-24">
         <Section as="div">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-4">
             {industryPlacementLeadership.sectionTitle}
