@@ -88,7 +88,7 @@ export const advisoryCouncil: AdvisoryCouncilSection = {
   keyAdvisorsLabel: "Key Advisors",
   advisors: [
     { name: "Harold Singh", credentials: "FSA" },
-    { name: "GLN Sarma", credentials: "FIA, FIAI" },
+    { name: "GLN Sarma", credentials: "FIAI" },
     { name: "P K Dinakar", credentials: "FIA, FIAI" },
   ],
   roleTitle: "Role of Advisory Council",
