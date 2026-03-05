@@ -19,9 +19,8 @@ export const subBrands: SubBrand[] = [
     id: "sssia",
     slug: "sssia",
     name: "sssia.org",
-    category: "Power by aiactuaries.org",
-    tagline:
-      "Sri Sathya Sai Institute of Actuaries.",
+    category: "Powered by aiactuaries.org",
+    tagline: "Sri Sathya Sai Institute of Actuaries.",
     headline:
       "Sri Sathya Sai Institute of Actuaries for Actuarial Data Science & AI",
     description:

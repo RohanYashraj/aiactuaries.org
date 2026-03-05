@@ -31,7 +31,7 @@ export const siteContent = {
       "Each pillar is intentionally scoped—from education, agentic AI and non-traditional solutions to traditional actuarial work, and thought leadership.",
   },
   audiences: {
-    heading: "Who the Center serves",
+    heading: "Who is it for",
     subtext:
       "Whether you are exploring AI, running a traditional actuarial function, or building capability, we route you to the right depth of support.",
     items: [
