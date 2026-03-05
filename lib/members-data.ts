@@ -217,7 +217,7 @@ export const industryPlacementLeadership: IndustryPlacementSection = {
             "Tech Actuarial – US\nLead: Internships & Placements (International Focus)",
         },
         {
-          name: "Sanjeev Chugh",
+          name: "Sangeev Chugh",
           title:
             "Sr. Manager – Administration, Tech Actuarial, India\nLead: Internships & Placements (India Operations)",
         },
