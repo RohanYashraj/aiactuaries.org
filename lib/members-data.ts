@@ -73,7 +73,7 @@ export const governanceLeadership: ChairmanSection = {
     name: "Satya Sai Mudigonda",
     credentials:
       "AIAI, CPCU, PMP, API, INS, Certified Predictive Analytics Lead",
-    title: "Professor of Practice in AI & Actuarial Data Science",
+    title: "Professor of Practice",
     roleResponsibilities: [
       "Strategic vision and long-term roadmap",
       "Academic–industry integration",
@@ -106,17 +106,12 @@ export const academicLeadership: AcademicLeadershipSection = {
     {
       name: "Dr. Rohan Yashraj Gupta",
       credentials: "FIA, FIAI",
-      title: "Professor of Practice in AI & Actuarial Data Science",
+      title: "Professor of Practice",
     },
     {
       name: "Dr. Pranav Sai S R",
-      title: "Professor of Practice in AI & Actuarial Data Science",
-    },
-    {
-      name: "Phani Krishna Kandala",
-      credentials: "AIAI",
-      title: "Professor of Practice in AI & Actuarial Data Science",
-    },
+      title: "Professor of Practice",
+    }
   ],
   responsibilitiesTitle: "Core Responsibilities",
   responsibilities: [
@@ -129,50 +124,77 @@ export const academicLeadership: AcademicLeadershipSection = {
 };
 
 export const professionalExamDivision: ProfessionalExamSection = {
-  sectionTitle: "Professional Examination & Certification Division",
+  sectionTitle: "",
   intro:
-    "This division ensures structured preparation aligned with major global actuarial bodies.",
-  focusGroupsLabel: "Examination pathways",
+    "",
+  focusGroupsLabel: "",
   focusGroups: [
     {
-      focusLabel: "ACAS Focus (CAS Pathway) & SOA Focus (ASA Pathway)",
+      focusLabel: "CAS & SoA Pathway",
       people: [
         {
           name: "Kasyap KVYS",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
         {
           name: "Satya Sai Sricharan",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
         {
           name: "Shashi Kumar",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
+        {
+          name: "Saiprasanna G",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Swayam Kumar Patro",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Arunachala M",
+          credentials: "AIAI",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Arrnav Dutta",
+          title: "Adjunct Faculty",
+        }
       ],
     },
     {
-      focusLabel: "IFoA & IAI Focus",
+      focusLabel: "IFoA & IAI Pathway",
       people: [
+        {
+          name: "Phani Krishna Kandala",
+          credentials: "AIAI",
+          title: "Adjunct Faculty",
+        },
         {
           name: "Naga Teja M",
           credentials: "FIA, FIAI",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
         {
           name: "Naga Sai Shivanee M",
           credentials: "FIA, FIAI",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
         {
           name: "Aakash Sahu",
           credentials: "AIAI",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
         },
         {
           name: "Divya Kartheeka M",
           credentials: "AIA",
-          title: "Adjunct Professor",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Mahadev Suresh",
+          credentials: "FIA",
+          title: "Adjunct Faculty",
         },
       ],
     },
@@ -182,7 +204,7 @@ export const professionalExamDivision: ProfessionalExamSection = {
 export const industryPlacementLeadership: IndustryPlacementSection = {
   sectionTitle: "Global Partnerships & Placement",
   intro:
-    "This division bridges the gap between academic excellence and global professional opportunities.",
+    "",
   focusGroupsLabel: "Administration",
   focusGroups: [
     {
@@ -210,8 +232,8 @@ export const industryPlacementLeadership: IndustryPlacementSection = {
           title: "Advocate A.P. High Court",
         },
         {
-          name: "Srikapil Chhabra",
-          credentials: "CA",
+          name: "Srikapil Krishna Chhabra",
+          credentials: "FCA, CMA",
           title: "Auditor",
         },
       ],
