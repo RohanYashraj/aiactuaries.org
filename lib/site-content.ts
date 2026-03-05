@@ -6,16 +6,16 @@ export const siteContent = {
   meta: {
     title: "AI Actuaries",
     description:
-      "AI Actuaries. One hub for SSS Center of Excellence in Actuarial Data Science & AI, Maestros AI, Tech Actuarial, and Sutra Blog.",
+      "AI Actuaries. One hub for Sri Sathya Sai Institute of Actuaries, Maestros AI, Tech Actuarial, and Sutra Blog.",
     /** Set to your production URL for OG images and canonical links (e.g. "https://aiactuaries.org"). */
-    baseUrl: "https://aiactuaries.org",
+    baseUrl: "https://sssia.org",
   },
   hero: {
     kicker: "AI Actuaries",
     titlePrefix: "Actuarial Data Science ",
     titleHighlight: "& AI",
     titleSuffix: ".",
-    body: "AI Actuaries. One hub for SSS Center of Excellence in Actuarial Data Science & AI, Maestros AI, Tech Actuarial, and Sutra Blog.",
+    body: "AI Actuaries. One hub for Sri Sathya Sai Institute of Actuaries, Maestros AI, Tech Actuarial, and Sutra Blog.",
     primaryCta: {
       label: "Explore the four pillars",
       href: "#brands",

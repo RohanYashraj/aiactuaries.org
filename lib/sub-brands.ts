@@ -16,17 +16,17 @@ export interface SubBrand {
 
 export const subBrands: SubBrand[] = [
   {
-    id: "center-of-excellence",
-    slug: "center-of-excellence",
-    name: "SSS CADS-AI",
-    category: "Center of Excellence",
+    id: "sssia",
+    slug: "sssia",
+    name: "sssia.org",
+    category: "Power by aiactuaries.org",
     tagline:
-      "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI.",
+      "Sri Sathya Sai Institute of Actuaries.",
     headline:
-      "Sri Sathya Sai Center of Excellence in Actuarial Data Science & AI",
+      "Sri Sathya Sai Institute of Actuaries for Actuarial Data Science & AI",
     description:
-      "The institutional home for actuarial data science and AI at Sri Sathya Sai, bringing together education, research, and ecosystem-building for the profession.",
-    url: "https://edu.aiactuaries.org",
+      "The institutional home for Actuarial Data Science and AI at Sri Sathya Sai, bringing together education, research, and ecosystem-building for the profession.",
+    url: "https://sssia.org",
     accent: "gold",
     image:
       "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
@@ -34,7 +34,7 @@ export const subBrands: SubBrand[] = [
   {
     id: "maestros-ai",
     slug: "maestros-ai",
-    name: "Maestros AI",
+    name: "maestrosai.in",
     category: "AI & Agents",
     tagline: "Agentic AI systems for insurance and actuarial innovation.",
     headline: "Agentic systems for insurance and actuarial innovation",
@@ -48,7 +48,7 @@ export const subBrands: SubBrand[] = [
   {
     id: "tech-actuarial",
     slug: "tech-actuarial",
-    name: "Tech Actuarial",
+    name: "techactuarial.com",
     category: "Actuarial + Data Science",
     tagline: "Traditional actuarial, upgraded with data science and tooling.",
     headline: "Traditional actuarial, upgraded with data science",
@@ -62,7 +62,7 @@ export const subBrands: SubBrand[] = [
   {
     id: "sutra-blog",
     slug: "sutra-blog",
-    name: "Sutra Blog",
+    name: "Sutra",
     category: "Thought Leadership",
     tagline:
       "Deep dives that keep the math intact but make ideas approachable.",
