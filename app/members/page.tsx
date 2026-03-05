@@ -54,7 +54,7 @@ export default function MembersPage() {
             <p className="text-lg md:text-xl text-muted-foreground float-up delay-100 leading-relaxed">
               The members of Sri Sathya Sai Institute of Actuaries bring
               together actuarial, AI, academic, and industry leadership to guide
-              the Centre&apos;s work.
+              the work.
             </p>
           </div>
         </Section>
