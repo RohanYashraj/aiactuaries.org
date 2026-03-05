@@ -89,6 +89,8 @@ export const advisoryCouncil: AdvisoryCouncilSection = {
   keyAdvisorsLabel: "Key Advisors",
   advisors: [
     { name: "Harold Singh", credentials: "FSA" },
+    { name: "GLN Sarma", credentials: "FIA, FIAI" },
+    { name: "P K Dinakar", credentials: "FIA, FIAI" },
   ],
   roleTitle: "Role of Advisory Council",
   roleItems: [
@@ -111,7 +113,7 @@ export const academicLeadership: AcademicLeadershipSection = {
     {
       name: "Dr. Pranav Sai S R",
       title: "Professor of Practice",
-    }
+    },
   ],
   responsibilitiesTitle: "Core Responsibilities",
   responsibilities: [
@@ -125,8 +127,7 @@ export const academicLeadership: AcademicLeadershipSection = {
 
 export const professionalExamDivision: ProfessionalExamSection = {
   sectionTitle: "",
-  intro:
-    "",
+  intro: "",
   focusGroupsLabel: "",
   focusGroups: [
     {
@@ -160,7 +161,7 @@ export const professionalExamDivision: ProfessionalExamSection = {
         {
           name: "Arrnav Dutta",
           title: "Adjunct Faculty",
-        }
+        },
       ],
     },
     {
@@ -203,8 +204,7 @@ export const professionalExamDivision: ProfessionalExamSection = {
 
 export const industryPlacementLeadership: IndustryPlacementSection = {
   sectionTitle: "Global Partnerships & Placement",
-  intro:
-    "",
+  intro: "",
   focusGroupsLabel: "Administration",
   focusGroups: [
     {
