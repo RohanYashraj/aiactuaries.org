@@ -52,9 +52,9 @@ export default function MembersPage() {
               Our <span className="hero-highlight">Members</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground float-up delay-100 leading-relaxed">
-              The members of Sri Sathya Sai Centre of Excellence in Actuarial
-              Data Science &amp; AI bring together actuarial, AI, academic, and
-              industry leadership to guide the Centre&apos;s work.
+              The members of Sri Sathya Sai Institute of Actuariesbring together
+              actuarial, AI, academic, and industry leadership to guide the
+              Centre&apos;s work.
             </p>
           </div>
         </Section>

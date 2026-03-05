@@ -71,9 +71,8 @@ export const governanceLeadership: ChairmanSection = {
   sectionTitle: "Governance & Leadership Structure",
   chairman: {
     name: "Satya Sai Mudigonda",
-    credentials:
-      "AIAI, CPCU, PMP, API, INS, Certified Predictive Analytics Lead",
-    title: "Professor of Practice",
+    credentials: "AIAI, CPCU, PMP, API, INS",
+    title: "Certified Predictive Analytics Lead",
     roleResponsibilities: [
       "Strategic vision and long-term roadmap",
       "Academic–industry integration",
@@ -108,11 +107,11 @@ export const academicLeadership: AcademicLeadershipSection = {
     {
       name: "Dr. Rohan Yashraj Gupta",
       credentials: "FIA, FIAI",
-      title: "Professor of Practice",
+      title: "PhD in Actuarial Science",
     },
     {
       name: "Dr. Pranav Sai S R",
-      title: "Professor of Practice",
+      title: "PhD in Actuarial Science",
     },
   ],
   responsibilitiesTitle: "Core Responsibilities",
