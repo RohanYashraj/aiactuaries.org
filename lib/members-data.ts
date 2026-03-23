@@ -173,7 +173,7 @@ export const professionalExamDivision: ProfessionalExamSection = {
         },
         {
           name: "Naga Teja M",
-          credentials: "FIA, FIAI",
+          credentials: "FIAI",
           title: "Adjunct Faculty",
         },
         {
