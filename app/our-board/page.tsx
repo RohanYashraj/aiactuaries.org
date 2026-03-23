@@ -46,10 +46,10 @@ export default function MembersPage() {
         <Section as="div">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand mb-3 float-up">
-              Members
+              Board Members
             </p>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 float-up">
-              Our <span className="hero-highlight">Members</span>
+              Our <span className="hero-highlight">Board Members</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground float-up delay-100 leading-relaxed">
               The members of Sri Sathya Sai Institute of Actuaries bring
@@ -197,6 +197,33 @@ export default function MembersPage() {
               </div>
             ))}
           </div>
+        </Section>
+      </section>
+
+      {/* Board alignment note */}
+      <section className="pb-16 md:pb-20">
+        <Section as="div">
+          <p className="text-sm md:text-base text-muted-foreground max-w-4xl leading-relaxed">
+            Our Board Members are in line with the values of the{" "}
+            <a
+              href="https://www.srisathyasaiglobalcouncil.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand underline underline-offset-4 hover:opacity-80 transition-opacity"
+            >
+              Sri Sathya Sai Global Council (SSSGC)
+            </a>{" "}
+            and the{" "}
+            <a
+              href="https://ssssoindia.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand underline underline-offset-4 hover:opacity-80 transition-opacity"
+            >
+              Sri Sathya Sai Seva Organizations (SSSSO)
+            </a>{" "}
+            in India.
+          </p>
         </Section>
       </section>
     </>

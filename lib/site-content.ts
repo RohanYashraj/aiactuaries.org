@@ -67,8 +67,8 @@ export const siteContent = {
   },
   nav: {
     links: [
-      { label: "Home", href: "/" },
-      { label: "Members", href: "/members" },
+      { label: "Our Board", href: "/our-board" },
+      { label: "Become a Member", href: "https://www.sssia.org" },
     ] as const,
   },
 };
