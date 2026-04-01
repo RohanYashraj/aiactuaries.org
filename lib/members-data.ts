@@ -169,7 +169,15 @@ export const professionalExamDivision: ProfessionalExamSection = {
           name: "Lalith Aditya K",
           title: "Adjunct Faculty",
         },
-        
+        {
+          name: "Priyadarshini",
+          credentials: "ASA",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Mohit Kumar Dounth",
+          title: "Adjunct Faculty",
+        }
       ],
     },
     {
