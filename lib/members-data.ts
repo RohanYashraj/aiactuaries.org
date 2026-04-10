@@ -213,6 +213,14 @@ export const professionalExamDivision: ProfessionalExamSection = {
           credentials: "FIA",
           title: "Adjunct Faculty",
         },
+        {
+          name: "Santosh Sridhar",
+          title: "Adjunct Faculty",
+        },
+        {
+          name: "Sai Krishna Vadali",
+          title: "Adjunct Faculty",
+        },
       ],
     },
   ],
