@@ -177,7 +177,11 @@ export const professionalExamDivision: ProfessionalExamSection = {
         {
           name: "Mohit Kumar Dounth",
           title: "Adjunct Faculty",
-        }
+        },
+        {
+          name: "V Ram Sai Deep",
+          title: "Adjunct Faculty"
+        },
       ],
     },
     {
