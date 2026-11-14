@@ -89,7 +89,7 @@ export const advisoryCouncil: AdvisoryCouncilSection = {
   advisors: [
     { name: "Harold Singh", credentials: "FSA" },
     { name: "GLN Sarma", credentials: "FIAI" },
-    { name: "P K Dinakar", credentials: "FIA, FIAI" },
+    { name: "P K Dinakar", credentials: "FIAI" },
   ],
   roleTitle: "Role of Advisory Council",
   roleItems: [
